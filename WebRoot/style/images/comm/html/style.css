@@ -1,0 +1,90 @@
+BODY {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px; MARGIN-TOP: 4px
+}
+TD {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px
+}
+INPUT {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px
+}
+SELECT {
+	FONT-FAMILY: "MS Shell Dlg"; FONT-SIZE: 12px
+}
+FORM {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; MARGIN-TOP: 3px
+}
+B {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px
+}
+TEXTAREA {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px
+}
+A {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px
+}
+H1 {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 16px
+}
+H2 {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 15px
+}
+H3 {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 14px
+}
+H4 {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 14px
+}
+HR {
+	COLOR: #000000; HEIGHT: 1px
+}
+.buttonface {
+	FONT-FAMILY: "MS Shell Dlg"; FONT-SIZE: 12px
+}
+.smallsel {
+	FONT-FAMILY: "MS Shell Dlg"; FONT-SIZE: 12px
+}
+.SmallInput .smallarea .smallfont {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px
+}
+.small {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px
+}
+.copy {
+	COLOR: #666666; FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 12px
+}
+.cptitle {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 14px; FONT-WEIGHT: bolder
+}
+.bbtitle {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 16px; FONT-WEIGHT: bolder
+}
+.date {
+	FONT-FAMILY: "Tahoma", "MS Shell Dlg"; FONT-SIZE: 5px
+}
+A:link {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR: #000066; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000066; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.topicsize {
+	COLOR: #999999; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; FONT-SIZE: 9px
+}
+.lastlyposttime {
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; FONT-SIZE: 9px
+}
+.CodeSamp {
+	BACKGROUND-COLOR: #eeeeee; FONT-FAMILY: "Courier New"; MARGIN-BOTTOM: 1em; MARGIN-LEFT: 0pt; MARGIN-TOP: 1em; PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 0.5em
+}

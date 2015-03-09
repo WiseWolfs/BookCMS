@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <package name="default" namespace="/" extends="struts-default">
+    	
+	     <interceptors>
+	     	<interceptor name="checkPrivilegeInterceptor" class="com.njit.lib.utils.CheckPrivilegeInterceptor"></interceptor>
+	     	<interceptor-stack name="defaultStack">
+	     		<interceptor-ref name="checkPrivilegeInterceptor"></interceptor-ref>
+	     		<interceptor-ref name="defaultStack"></interceptor-ref>
+	     	</interceptor-stack>  	
+	     </interceptors> 
+	     
+	    <global-results>
+    		<result name="loginUI">/jsp/userAction/loginUI.jsp</result>	
+    		<result name="noPrivilege">/jsp/userAction/noPrivilege.jsp</result>
+    	</global-results>
+        <!-- 测试 -->
+        <action name="test" class="testAction">
+        	<result>test.jsp</result>
+        </action>
+        
+        <!-- 首页数据初始化 -->
+        <action name="init" class="initAction">
+        	<result>/jsp/indexAction/index.jsp</result>
+        </action>
+        
+    	<!-- 用户管理 -->
+    	<action name="user_*" class="userAction" method="{1}">
+    	
+    		<result  name="addUI">/WEB-INF/jsp/userAction/addUI.jsp</result>
+    		<result  name="updateUI">/WEB-INF/jsp/userAction/updateUI.jsp</result>
+    		<result  name="list">/WEB-INF/jsp/userAction/list.jsp</result>
+    		<result  name="show">/WEB-INF/jsp/userAction/show.jsp</result>
+    		<result  name="loginUI">/jsp/userAction/loginUI.jsp</result>
+    		<result  name="logout"  >/jsp/userAction/logout.jsp</result>
+    		<result  name="index" >/WEB-INF/jsp/admin/index.jsp</result>
+    		<result  name="MyLibrary">/WEB-INF/jsp/userAction/mylibrary.jsp</result>
+    		<result type="redirectAction" name="toList">user_list</result>
+    		<result type="redirect" name="toIndex">/index.jsp</result>
+    		
+    	</action>
+    	
+    	
+    	<!-- 注册管理 -->
+    	<action name="register_*" class="registerAction" method="{1}">
+    		<interceptor-ref name="fileUpload">
+    			<param name="allowedTypes">
+    				 image/bmp,image/png,image/gif,image/jpeg
+    			</param>
+    			<!-- 最大上传1024*1024 -->
+    			<param name="maximumSize">
+    				1048576
+    			</param>
+    		</interceptor-ref>
+    			<interceptor-ref name="defaultStack"></interceptor-ref>
+    		<result  name="addUI">/jsp/registerAction/registerUI.jsp</result>
+    		<!-- 若上传失败，则跳转这个页面 -->
+    		<result name="input" >/jsp/registerAction/registerUI.jsp</result>
+    		<result>/jsp/registerAction/register.jsp</result>
+    		
+    	</action>
+    	
+    	<!-- 广告管理 -->
+    	<action name="advertisement_*" class="advertisementAction" method="{1}">
+    		<result  name="saveUI">/WEB-INF/jsp/advertisementAction/saveUI.jsp</result>
+    		<result  name="list">/WEB-INF/jsp/advertisementAction/list.jsp</result>
+    		<result type="redirectAction" name="toList">advertisement_list</result>
+    	</action>
+    	
+    	<!-- 角色管理 -->
+    	<action name="role_*" class="roleAction" method="{1}">
+    		<result  name="saveUI">/WEB-INF/jsp/roleAction/saveUI.jsp</result>
+    		<result  name="list">/WEB-INF/jsp/roleAction/list.jsp</result>
+    		<result  name="setPrivilegeUI">/WEB-INF/jsp/roleAction/setPrivilegeUI.jsp</result>
+    		<result type="redirectAction" name="toList">role_list</result>
+    	</action>
+    	
+    	<!-- 文章管理 -->
+    	<action name="article_*" class="articleAction" method="{1}">
+    		<result  name="saveUI">/WEB-INF/jsp/articleAction/saveUI.jsp</result>
+    		<result  name="list">/WEB-INF/jsp/articleAction/list.jsp</result>
+    		<result type="redirectAction" name="toList">article_list</result>
+    	</action>
+    	
+    	<!-- 频道管理 -->
+    	<action name="channel_*" class="channelAction" method="{1}">
+    		<result  name="saveUI">/WEB-INF/jsp/channelAction/saveUI.jsp</result>
+    		<result  name="list">/WEB-INF/jsp/channelAction/list.jsp</result>
+    		<result type="redirectAction" name="toList">channel_list?type=${type}</result>
+    	</action>
+    	
+    	<!-- 新闻管理 -->
+    	<action name="news_*" class="newsAction" method="{1}">
+    		<result name="show">/jsp/newsAction/show.jsp</result>
+    		<result  name="saveUI">/WEB-INF/jsp/newsAction/saveUI.jsp</result>
+    		<result  name="list">/WEB-INF/jsp/newsAction/list.jsp</result>
+    		<result  name="more">/jsp/newsAction/list.jsp</result>
+    		<result type="redirectAction" name="toList">news_list?type=${type}</result>
+    		<result type="redirectAction" name="toShow">news_show?id=%{id}</result>
+    	</action>
+    	
+    	<!-- 留言管理 -->
+    	<action name="message_*" class="messageAction" method="{1}">
+    		<result  name="saveUI">/WEB-INF/jsp/messageAction/saveUI.jsp</result>
+    		<result  name="list">/WEB-INF/jsp/messageAction/list.jsp</result>
+    		<result name="more">/jsp/messageAction/list.jsp</result>
+    		<result type="redirectAction" name="toList">message_list</result>
+    	</action>
+    	
+    	<!-- 评论管理 -->
+    	<action name="remark_*" class="remarkAction" method="{1}">
+    		<result  name="saveUI">/WEB-INF/jsp/remarkAction/saveUI.jsp</result>
+    		<result  name="list">/WEB-INF/jsp/remarkAction/list.jsp</result>
+    		<result type="redirectAction" name="toList">remark_list?id=${message.id}</result>
+    	</action>
+    	
+    	<!-- 主页管理 -->
+    	<action name="home_*" class="homeAction" method="{1}">
+    		<result  name="index">/WEB-INF/jsp/admin/index.jsp</result>
+    		<result  name="top">/WEB-INF/jsp/admin/top.jsp</result>
+    		<result  name="left">/WEB-INF/jsp/admin/left.jsp</result>
+    		<result  name="right">/WEB-INF/jsp/admin/right.jsp</result>
+    		<result  name="bottom">/WEB-INF/jsp/admin/bottom.jsp</result>
+    	  </action>
+    	<!-- 我的图书馆管理 -->
+    	<action name="library_*" class="libraryAction" method="{1}">
+    		<result  name="top">/WEB-INF/jsp/userAction/myLibrary/top.jsp</result>
+    		<result  name="left">/WEB-INF/jsp/userAction/myLibrary/left.jsp</result>
+    		<result  name="right">/WEB-INF/jsp/userAction/myLibrary/right.jsp</result>
+    		<result  name="bottom">/WEB-INF/jsp/userAction/myLibrary/bottom.jsp</result>
+    	</action>
+    	
+    	
+    </package>
+
+
+</struts>

@@ -1,0 +1,126 @@
+body {
+	background: #d8edfc;
+	font-size: 12px;
+	font-family: "ËÎÌו";
+	scrollbar-base-color: #dbecf8;
+	scrollbar-arrow-color: #2a8ed1;
+	scrollbar-track-color: #bdddf2;
+	scrollbar-3dlight-color: #2886c5;
+	scrollbar-darkshadow-color: #2886c5;
+	scrollbar-face-color: #dbecf8;
+	scrollbar-shadow-color: #dbecf8;
+	margin: 1px;
+	border: 3px solid #4891c6;
+}
+
+A:link {
+	COLOR: #004779; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #004779; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #004779; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0000ff; TEXT-DECORATION: underLine;
+}
+
+img.Icon {
+	margin-bottom: -4px;
+}
+
+#MenuUl, ul.MenuLevel1{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	background: #d8ebf7;
+}
+
+ul.MenuLevel2 {
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	background: #d8ebf7;
+}
+
+#Menu {
+	padding: 0px;
+	float: left;
+	width: 100%;
+	margin: 0px;
+}
+
+.level1 {
+	font-weight: bold;
+	color: #005790;
+	padding-bottom: 1px;
+}
+
+.level2 {
+	font-weight: normal;
+	color: #005790;
+}
+
+.level3Head {
+	font-weight: normal;
+	color: #2479b6;
+	width: 100%;
+	height: 21px;
+	padding-left: 61px;
+	padding-top: 4px;
+	margin: 0;
+	background: url(images/menu_bg_head.gif) no-repeat;
+	cursor: hand;
+}
+
+.level33 {
+	font-weight: normal;
+	color: #2479b6;
+	width: 100%;
+	height: 21px;
+	padding-left: 61px;
+	padding-top: 4px;
+	background: url(images/menu_bg_3.gif) no-repeat;
+	cursor: hand;
+}
+
+.level32 {
+	font-weight: normal;
+	color: #2479b6;
+	width: 100%;
+	height: 21px;
+	padding-left: 61px;
+	padding-top: 4px;
+	background: url(images/menu_bg_2.gif) no-repeat;
+	cursor: hand;
+}
+
+.level1Style {
+	width: 155px;
+	height: 24px;
+	background: url(images/menu_btn_bg.gif) no-repeat;
+	padding-left: 20px;
+	padding-top: 4px;
+	cursor: hand;
+}
+
+.level1SelectedStyle {
+	width: 155px;
+	height: 24px;
+	background: url(images/menu_btn_bg_selected.gif) no-repeat;
+	padding-left: 20px;
+	padding-top: 4px;
+	cursor: hand;
+}
+
+.level2Style {
+	width: 100%;
+	height: 20px;
+	background: #8ec4e9;
+	padding-left: 30px;
+	padding-top: 4px;
+	border-top: 1px solid #eff6fb;
+	cursor: hand;
+}
+

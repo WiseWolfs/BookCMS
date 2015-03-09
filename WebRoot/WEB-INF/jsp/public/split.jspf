@@ -1,0 +1,33 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@taglib prefix="s" uri="/struts-tags" %>
+<center>
+	<!--分页信息-->
+	<div id=PageSelectorBar>
+		<div id=PageSelectorMemo>
+			页次：${currentPage}/${pageSum}页 &nbsp;
+			每页显示：${countPage}条 &nbsp;
+			总记录数 ${totalRows}条
+		</div>
+		<div id=PageSelectorSelectorArea>
+			<a href="javascript:void(0)" title="首页" style="cursor: hand;">
+				<img src="${pageContext.request.contextPath}/style/blue/images/pageSelector/firstPage.png"/></a>
+			<s:iterator begin="beginIndex" end="endIndex" var="num">
+				<s:if test="#num == currentPage">
+						<span class="PageSelectorNum PageSelectorSelected">${currentPage}</span>
+				</s:if>
+				<s:else>
+					<span class="PageSelectorNum" style="cursor: hand;" onclick="gotoPageNum(${num});">${num}</span>
+				</s:else>
+			</s:iterator>
+			<a href="#" title="下一页" style="cursor: hand;">
+				<img src="${pageContext.request.contextPath}/style/blue/images/pageSelector/lastPage.png"/></a>
+			转到：
+				<select onchange="gotoPageNum(this.value)" id="_pn">
+					<s:iterator begin="1" end="%{pageSum}" var="num">
+						<option value="${num}">${num}</option>
+					</s:iterator>
+				</select>
+		</div>
+	</div>
+		
+	</center>

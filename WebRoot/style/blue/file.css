@@ -1,0 +1,246 @@
+body {
+	background: #fff;
+}
+
+ul {
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+#Head1 {
+	width: 100%;
+	height: 64px;
+	border: 0px solid #FFFFF;
+	margin: 0px auto;
+	background: url(images/top_bg.gif) repeat-x;
+}
+
+#Logo {
+	position: absolute;
+	top: 12px;
+	left: 20px;
+	float: left;
+}
+
+#Head1Right {
+	float: right;
+	height: 25px;
+}
+
+#Head1Right_UserName {
+	float: left;
+	height: 100%;
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#014f83,endcolorstr=#2b6798,gradientType=1);
+	padding-top: 6px;
+}
+
+.UserName {
+	font-size: 12px;
+	font-family: 宋体;
+	color: #b3e1ff;
+}
+
+#Head1Right_UserDept {
+	float:left;
+	background: #2b6798;
+	height: 100%;
+	padding-top: 6px;
+	font-size: 12px;
+	font-family: 宋体;
+	color: #75abd2;
+}
+
+#Head1Right_UserSetup {
+	float: left;
+	height: 100%;
+	color: #75abd2;
+	padding-top: 6px;
+	padding-left: 2px;
+	background:#2b6798;
+	cursor: hand;
+}
+
+.UserSetup {
+	font-size: 12px;
+	font-family: 宋体;
+	color: #f6d881;
+}
+
+#Head1Right_Time {
+	font-size: 12px;
+	font-family: 宋体;
+	color: #b3e1ff;
+	float: left;
+	height: 100%;
+	padding-top: 6px;
+	padding-right: 10px;
+	background: #2b6798;
+}
+
+#Head1Right_Button {
+	position: absolute; 
+	top: 35px; 
+	right: 20%;
+	float: left;
+}
+
+#Head1Right_Button img {
+	border: 0;
+	float: right;
+}
+
+#Head1Right_SystemButton {
+	position: absolute; 
+	top: 35px; 
+	right:5px;
+	float:left;
+}
+
+#Head1Right_SystemButton img {
+	border: 0;
+	float: right;
+}
+
+#Head2 {
+	width: 100%;
+	height: 36px;
+	margin-left: auto;
+	margin: 0;
+	background: url(images/head2_bg.gif) repeat-x;
+	border-top: 1px solid #a0c6e1;
+	border-bottom: 1px solid #ffffff;
+}
+
+#Head2_Awoke{
+	float: left;
+	height: 100%;
+	padding-left: 19px;
+	padding-top: 2px;
+}
+
+#Head2_Awoke A {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #ffffff;
+	TEXT-DECORATION: none
+}
+
+#Head2_Awoke td {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #ffffff;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.Line {
+	border-left: 1px solid #005a98;
+	border-right: 1px solid #a0c6e1;
+	width: 2px;
+	height: 17px;
+}
+
+#Head2_FunctionList {
+	float: right;
+	height: 100%;
+	padding-right: 26px;
+}
+
+#Head2_FunctionList td {
+	font-family: 宋体;
+	font-size: 12px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.Btn {
+	float: left;
+	height: 23px;
+	padding-top: 6px;
+	background-position: 1px 4px;
+	list-style-type:none;
+}
+
+.Btn_Left {
+	height: 24px; 
+	width: 4px;
+	background: url(images/btn_left.gif) no-repeat;
+}
+
+.Btn_Right {
+	height: 24px; 
+	width: 4px;
+	background: url(images/btn_right.gif) no-repeat;
+}
+
+.Btn_Content {
+	padding-left: 5px;
+	padding-right: 5px;
+	background: url(images/btn_bg.gif);
+}
+
+.Btn_Space {
+	float: left;
+	width: 5px;
+	height: 100%;
+}
+
+.Menu_head_Table {
+	border: solid 1px #D1D1D1;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#F8F8F8,endColorStr=#DDDDDD);
+}
+
+#dirListArea{
+	width: 260px;
+	height: 80%; 
+	float: left; 
+	background-color: #FFFFFF;
+}
+
+#dirListTitle{
+	width: 100%; 
+	padding-left: 15px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-top: 3px; 
+	cursor:hand;
+}
+
+.Menu_head_Title {
+	PADDING-TOP:3px;
+	font-size: 10pt;
+	color: #822219;
+}
+
+.Menu_layer1_Table {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#A9C6FF,endColorStr=#CFE5F9);
+}
+
+.Menu_layer1_Title {
+	PADDING-TOP:3px;
+	font-size: 9pt;
+	color: #000000;
+}
+
+.Menu_layer2_Table {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#C0D6FF,endColorStr=#D6ffFF);
+}
+
+.Menu_layer2_Title {
+	PADDING-TOP:3px;
+	font-size: 9pt;
+	color: #000000;
+}
+
+.Menu_mid {
+	background: #FFFFFF;
+	height: 1px;
+}
+
+span.folder{
+	background-image: url("images/folder2.gif");
+	background-repeat: no-repeat;
+	font-size: 14px;
+	padding-left: 20px;
+	height: 17px;
+}

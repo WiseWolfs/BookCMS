@@ -1,0 +1,136 @@
+.OutsideBorder {
+	border: 1px solid #ffffff;
+	margin: 5x;
+	width: 450px;
+	float: left;
+}
+
+.InsideBorder {
+	border: 1px solid #91c0e3;
+	width: 100%;
+	padding-top: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 5px;
+}
+
+.OperateArea {
+	background-color: #ffffff;
+	width: 100%;
+}
+
+#SearchInputArea {
+	border: 1px solid #91c0e3;
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#deeef8,endcolorstr=#ffffff,gradientType=0);
+	width: 100%;
+	padding: 0;
+	height: 22px;
+	margin-bottom: 5px;
+}
+
+#SearchInputArea img {
+	margin-bottom: -5px;
+}
+
+
+.SearchInput {
+	BACKGROUND-COLOR: transparent;
+	border: 0;
+	color: #000000;
+	font-size: 12pt;
+	width: 400px;
+}
+
+#ItemListArea {
+	text-align: left;
+	border: 1px solid #91c0e3;
+	height: 332px;
+}
+
+#ItemListArea ul {
+	margin: 0;
+	padding: 0;
+}
+
+#ItemListArea ul li {
+	/*background-color: #004A7D;*/
+}
+
+#ItemListArea span {
+	background-color: #b6d9ef;
+	margin: 1px;
+	border-bottom: 1px solid #91c0e3;
+	height: 20px;
+	line-height: 20px;
+	color: #004a7d;
+	padding-left: 10px;
+	padding-top: 3px;
+	width: 100%;
+}
+
+#ItemListArea div {
+	background-color: #ffffff;
+	height: 260px;
+}
+
+#ItemListArea select {
+	margin-top: 2px;
+	width: 100%;
+	height: 238px;
+}
+
+#SelectedHead {
+	height: 25px;
+	text-align: left;
+	padding-left: 2px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#deeef8,endcolorstr=#ffffff,gradientType=0);
+	border: 1px solid #91c0e3;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#SelectedHead img {
+	margin-bottom: -3px;
+}
+
+.Selected {
+	height: 330px;
+	width: 100%;
+}
+
+* {
+	font: 12px '}ËÎÌו'
+}
+.tab_suggest {
+	border:1px solid #333;
+	background:#fff;
+	position:absolute;
+	z-index:101;
+	visibility: hidden;
+}
+.tab_suggest th, .tab_suggest td {
+	font:12px 'ËÎÌו';
+	font-weight:normal;
+	height:17px;
+	text-align:left;
+	line-height:17px;
+	padding:2px 3px;
+	white-space:nowrap;
+	cursor: default;
+}
+.tab_suggest td {
+	color:#008000;
+	text-align:right;
+}
+.tab_suggest tr.cur {
+	background:#36c;
+	color:#fff
+}
+.tab_suggest tr.cur td {
+	color:#fff
+}
+.th_suggest {
+	color:#FF0000
+}

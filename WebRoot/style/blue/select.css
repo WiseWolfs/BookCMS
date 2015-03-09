@@ -1,0 +1,50 @@
+.TableBorder {
+	BORDER-TOP: #DEDEDE 1px solid; 
+	BORDER-BOTTOM: #DEDEDE 1px solid; 
+	BORDER-LEFT: #DEDEDE 1px solid; 
+	BORDER-RIGHT: #DEDEDE 1px solid; 
+}
+
+.HeadLeft {
+	background: url(images/2311_1.gif);
+	padding-left: 20px;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.HeadMiddle {
+	background: url(images/2311_2.gif);
+}
+
+.HeadRight {
+	background: url(images/2311_3.gif);
+}
+
+.Detail {
+	padding: 10px;
+}
+
+.DetailTable {
+	CURSOR: hand;
+}
+
+.DetailLeft {
+	background: url(images/2311_4.gif);
+}
+
+.DetailMiddle {
+	background: url(images/2311_5.gif);
+}
+
+.DetailRight {
+	background: url(images/2311_6.gif);
+}
+
+#DetailBlock {
+	width: 220px;
+	height: 50px;
+	padding: 3px;
+	float: left;
+}
+

@@ -1,0 +1,247 @@
+.ForumPageTableBorder {
+	border: 1px solid #91c0e3;
+	width: 98%;
+}
+
+.ForumPageTableTitleLeft {
+	border-left: 1px solid #f7f7f7;
+	border-top: 1px solid #f7f7f7;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#cfe6fb,endColorStr=#acd1f4);
+	height: 23px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #004a7d;
+}
+
+.ForumPageTableTitleRight {
+	border-right: 1px solid #f7f7f7;
+	border-top: 1px solid #f7f7f7;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#cfe6fb,endColorStr=#acd1f4);
+	height: 23px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #004a7d;
+}
+
+.ForumPageTableTitleLine {
+	background-color: #91c0e3;
+}
+
+.ForumPageTableTitle {
+	border-top: 1px solid #f7f7f7;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#cfe6fb,endColorStr=#acd1f4);
+	height: 23px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #004a7d;
+}
+
+.ForumPageTableDataLine {
+	border-bottom: 1px solid #e3e3e3;
+	background-color: #FFFFFF;
+	color: #787878;
+	font-size: 12px;
+}
+
+.ForumPageTopicUl {
+	margin: 0px;
+	width: 100%;
+	text-align: left;
+}
+
+.ForumPageTopic {
+	color: #004e83;
+	font-size: 13px;
+	font-weight: bold;
+	height: 20px;
+}
+
+.ForumPageTopicMemo {
+	color: #787878;
+	text-indent: 2em;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.ForumPageToday {
+	background-color: #FFFFFF;
+	color: #539dff;
+	font-size: 12px;
+	border-bottom: 1px solid #e3e3e3;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.ForumPageManager {
+	float: right; 
+	font-weight: normal;
+	color: #004a7d;
+}
+
+.ForumTopicPageDataLine {
+	border-bottom: 1px solid #e3e3e3;
+	background-color: #FFFFFF;
+	color: #004a7d;
+	font-size: 12px;
+}
+
+.Topic {
+	border-bottom: 1px solid #e3e3e3;
+	background-color: #FFFFFF;
+	color: #004a7d;
+	font-size: 14px;
+}
+
+.Author {
+	color: #669dc6;
+	font-size: 12px;
+	text-align: center;
+}
+
+.CreateTime {
+	color: #bbbbbb;
+	font-size: 12px;
+	text-align: center;
+}
+
+.Reply {
+	color: #539dff;
+	font-weight: bold;
+}
+
+A.TOP {
+	color: #cf0000;
+}
+
+A.HOT {
+	color: #ff8f00;
+}
+
+A.Default {
+	color: #004a7d;
+}
+
+.MenuPoint {
+	color: #ff9600;
+}
+.VotingArea {
+	background-color: #FFFFFF;
+	border-top:1px solid #E0E0E0;
+	border-right:1px solid #E0E0E0;
+	border-left:1px solid #E0E0E0;
+	margin: 0px;
+}
+.VotingArea td{
+	border-bottom:1px solid #E0E0E0;
+	height:25px;
+
+}
+.ListArea {
+	background-color: #FFFFFF;
+	width: 100%;
+	padding: 1px;
+	margin: 3px;
+}
+
+.PhotoArea {
+	background-color: #e5f2fb;
+}
+
+.AuthorPhoto {
+	margin-top: 11px;
+	margin-left: 9px;
+	margin-right: 9px;
+	margin-bottom: 5px;
+}
+
+.AuthorName {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.TopicSubject {
+	color: #004a7d;
+	font-size: 13px;
+	font-weight: bold;
+	float: left;
+}
+
+.TopicFunc {
+	color: #004a7d;
+	font-size: 12px;
+	margin: 0px;
+	height: 20px;
+	border-bottom: 1px dashed #958f88;
+	width: 98%;
+}
+
+.TopicFuncLi {
+	float: right;
+	padding-right: 8px;
+}
+
+.Content {
+	width: 98%;
+	height: 100px;
+	padding: 10px;
+	text-align: justify;
+}
+
+.Footer {
+	background: #add4f7;
+	color: #a1a1a1;
+}
+
+.QuictReply {
+	background-color: #FFFFFF;
+	margin: 3px;
+	text-align: left;
+}
+
+#InputArea {
+	margin: 3px;
+	background-color: #e9e9e9;
+}
+
+.InputAreaBg {
+	background-color: #FFFFFF;
+}
+
+.InputTitle {
+	background-color: #f3f8fc;
+	height: 100%;
+	width: 100%;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	color: #004a7d;
+}
+
+.InputContent {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.JobTopic {
+	border-bottom: 1px solid #e3e3e3;
+	background-color: #FFFFFF;
+	color: #004a7d;
+	font-size: 12px;
+}
+
+.InputTitle1 {
+	background-color: #f3f8fc;
+	height: 100%;
+	width: 100%;
+	padding:3px;
+	text-align: center;
+	line-height: 30px;
+}
+.InputTitle2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	color: #004a7d
+}

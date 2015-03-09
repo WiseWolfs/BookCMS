@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body {
+	background: #004676;
+	margin: 0;
+}
+#Logout {
+	border: solid 5px #5ea3e1;
+	width: 456px;
+}
+#AwokeMsg {
+	height: 100;
+	background: #ffffff;
+	width: 100%;
+	text-align: left;
+`
+}
+#LogoutOperate {
+	background: #dcdcdc;
+	height: 85px;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 49px;
+	color: #004676;
+	font-family: "宋体";
+	font-size: 12px;
+}
+#LogoutOperate a {
+	color: #004676;
+	font-family: "宋体";
+	font-size: 12px;
+	margin-right: 20px;
+	TEXT-DECORATION: none;
+}
+#LogoutOperate img {
+	margin-bottom: -2px;
+}
+#LogoutImg {
+	margin-left: 33px;
+	margin-top: 21px;
+	margin-right: 10px;
+}
+#LogoutTitle {
+	margin-left: 12px;
+	margin-bottom: 16px;
+}
+table {
+	font-family: 宋体;
+	font-size: 10pt;
+	color: #484848;
+}
